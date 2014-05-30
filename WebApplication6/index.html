@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>My ToDo List</title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/StyleSheet1.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="well" id="list-holder">
+        <h1>My to do list</h1>
+        <div class="well-sm" id="input-fields">
+            <input class="input-lg" type="text" id="item-input" placeholder="enter a new to-do" />
+
+            <div class="btn btn-danger" onclick="MyApp.addItem()">Add Item</div>
+            <div class="btn btn-success" onclick="MyApp.clearDone()"> <span id=" btn btn-success"></span>Delete Item</div>
+
+        </div>
+        <div class="jumbotron" id="list">
+
+        </div>
+
+
+    </div>
+
+
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/JavaScript1.js"></script>
+</body>
+</html>
